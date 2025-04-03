@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <meta name="author" content="friday samuel">
+    <title>my-portfolio-website(friday-samuel)</title>
+</head>
+<body>
+  
+        <header class="header-flex container">
+            <h1><span>S</span>amuel.</h1>
+
+            <!-- navbar menu for larger screens -->
+                <nav class="large-screen-nav">
+                    <ul class="nav-list">
+                        <li class="nav-list-items home"><a href="#home" class="nav-link home">Home</a></li>
+                        <li class="nav-list-items"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-list-items"><a href="#services" class="nav-link">Services</a></li>
+                        <li class="nav-list-items"><a href="#projects" class="nav-link">Project</a></li>
+                        <li class="nav-list-items"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+           
+          
+            <!-- navbar menu for mobile screens -->
+            <div class="mobile-nav-container">
+                <nav class="mobile-nav">
+                    <i class="fa-solid fa-times"></i>
+                    <ul class="nav-list">
+                        <li class="nav-list-items"><a href="#home" class="nav-link home">Home</a></li>
+                        <li class="nav-list-items"><a href="#about" class="nav-link about">About Me</a></li>
+                        <li class="nav-list-items"><a href="#services" class="nav-link services">Services</a></li>
+                        <li class="nav-list-items"><a href="#projects" class="nav-link projects">Project</a></li>
+                        <li class="nav-list-items"><a href="#contact" class="nav-link contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+        </header>
+        
+        
+         <main>
+            <!-- introduction-section -->
+            <section class="introduction-section container" id="home">
+                <div class="image-container">
+                    <div class="circle">
+                        <img src="images/samuel_2.png" alt="a picture of me" class="my-picture" />
+                    </div>
+                </div>
+                <div class="intro-row">
+                    <div class="welcome-box">Welcome I'M</div>
+                    <h2 class="name">Friday Samuel</h2>
+                    <p class="job-title">Software Developer</p>
+                    <p class="little-about-me">I am a creative front-end developer focused on designing intuitive, visually striking web interfaces. With a flair for innovation, I craft responsive and interactive experiences that bring ideas to life.
+                    </p>
+                    <a href="#" class="cv-download">Download CV</a>
+                    <a href="#contact" class="hire-me">Hire me</a>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-me container" id="about">
+                <div class="img-cont">
+                    <img src="images/samuel_2.png" alt="a picture of me in  suit" class="my-about-picture" />
+                </div>
+                <div class="details">
+                    <h3>About Me</h3>
+                    <p class="about-text">I am a detail-oriented front-end developer passionate about transforming creative ideas into visually appealing, user-friendly websites. With expertise in HTML, CSS, and JavaScript, I craft responsive designs that ensure seamless user experiences. Constantly exploring new technologies, I aim to deliver innovative and efficient web solutions.</p>
+                    <div class="more-details">
+                        <p class="tab-link active-link" data-tab="skills">Skills</p>
+                        <p class="tab-link" data-tab="education">Education</p>
+                        <p class="tab-link" data-tab="experience">Experiences</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <div class="stack-logos">
+                            <img src="images/html.png" class="html" alt="html-logo" />
+                            <img src="images/css.png" class="css" alt="html-logo" />
+                            <img src="images/javascript.png" class="javascript" alt="html-logo" />
+                            <img src="images/react.png" class="react" alt="html-logo" />
+                            <img src="images/github.png" class="github" alt="html-logo" />
+                            <img src="images/github.png" class="github" alt="html-logo" />
+                        </div>
+                      
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Final-Year Student in Medical Laboratory Science, Degree in View (Graduating 2025) <br>University of Lagos</li>
+                            <li><span>2024</span><br>TechUp Africa Mentoring Program (TAMP)</li>
+                            <li><span>2024</span><br>Front-end Developer Career Path (Srcimba) </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2024 - current </span><br>Front-end developer at Afri-Rise</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- service-section -->
+            <section class="services container" id="services">
+                <h3>Services</h3>
+                <div class="service-inner">
+                    <div>
+                        <h2>Responsive Web Design</h2>
+                        <p> Crafting adaptable layouts and designs to ensure seamless user experiences across various devices and screen sizes. 
+                        </p>
+                        <a href="">Learm more</a>
+                    </div>
+                    <div>
+                        <h2>Interactive User Interface Development</h2>
+                        <p> Implementing dynamic and interactive elements using JavaScript and frameworks like React to enhance user engagement. 
+                        </p>
+                        <a href="">Learm more</a>
+                    </div>
+                    <div>
+                        <h2>API Integration</h2>
+                        <p>Connecting front-end interfaces with back-end services by integrating and displaying data from RESTful APIs. 
+                        </p>
+                        <a href="">Learm more</a>
+                    </div>
+                </div>
+               
+            </section>
+            
+            <!-- project-section -->
+            <section class="my-work container" id="projects">
+                <h3>My Works</h3>
+                <div class="my-work-grid">
+                    <div class="work-img">
+                        <img src="images/project-4.png"  class="healthcare1" width="100%" alt="healthcare picture">
+                        <div class="layer">
+                            <h3>Responsive web-page</h3>
+                            <p>Discover a sleek, responsive healthcare landing page built for effortless access to essential medical services and resources on any device.</p>
+                            <a href="https://willowy-pothos-1ce429.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            
+                        </div>
+                    </div>
+                    <div class="work-img">
+                        <img src="images/project-5.png" class="healthcare2"  width="100%"  alt="healthcare picture" >
+                        <div class="layer">
+                            <h3>Healthcare Landing Page</h3>
+                            <p>Experience a dynamic, user-centric healthcare platform designed to streamline navigation and enhance patient-provider connections.</p>
+                            <a href="https://peppy-toffee-00cc28.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           
+                        </div>
+                       
+                    </div>
+                    <div class="work-img">
+                        <img src="images/project-6.png" class="restaurant-app"  width="100%"  alt="healthcare picture" >
+                        <div class="layer">
+                            <h3>Healthcare Landing Page</h3>
+                            <p>Experience a dynamic, user-centric healthcare platform designed to streamline navigation and enhance patient-provider connections.</p>
+                            <a href="https://funny-bunny-0add71.netlify.app/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           
+                        </div>
+                       
+                    </div>
+                    <div class="work-img">
+                        <img src="images/project-1.png"  class="password-generator"  width="100%"  alt="healthcare picture">
+                        <div class="layer">
+                            <h3>Responsive web-page</h3>
+                            <p>Discover a sleek, responsive healthcare landing page built for effortless access to essential medical services and resources on any device.</p>
+                            <a href="https://clinquant-jelly-413e6a.netlify.app/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           
+                        </div>
+                    </div>
+
+
+                    <div class="work-img">
+                        <img src="images/project-3.png"  class="color-picker"  width="100%"  alt="healthcare picture">
+                        <div class="layer">
+                            <h3>Responsive web-page</h3>
+                            <p>Discover a sleek, responsive healthcare landing page built for effortless access to essential medical services and resources on any device.</p>
+                            <a href="https://tangerine-brigadeiros-425ac8.netlify.app/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           
+                        </div>
+                    </div>
+                    <div class="work-img">
+                        <img src="images/project-2.png"  class="metric-converter"  width="100%"  alt="healthcare picture">
+                        <div class="layer">
+                            <h3>Responsive web-page</h3>
+                            <p>Discover a sleek, responsive healthcare landing page built for effortless access to essential medical services and resources on any device.</p>
+                            <a href="https://startling-choux-b9da24.netlify.app/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <button class="see-more">See more</button>
+            </section>
+
+            <!-- contact-section -->
+            <section class="contact container" id="contact">
+                <h3>Contact Me</h3>
+                <div class="contact-flex">
+                    <div class="contact-left">
+                        <p><i class="fa-solid fa-envelope"></i>fridaysamuel508@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+2348141796762</p>
+                        <div class="social-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="contact-right-cont">
+                        <form id="contact-form" class="contact-right">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                            <textarea name="message" id="message" placeholder="Your Message" rows="9"></textarea>
+                            <button type="submit" class="contact-btn"><i class="fas fa-paper-plane"></i>Send message</button>
+                        </form>
+                    </div>
+                </div>
+                <p id="form-message" style="display: none; color: green;">Message sent successfully!</p>
+
+            </section>
+            </div>
+         </main>
+
+         <footer class="footer-bg">
+            <div class="container footer-flex">
+            <h4><span>S</span>amuel</h4>
+            <div class="footer-link">
+                <nav class="footer-nav">
+                    <ul class="nav-list">
+                        <li class="nav-list-items"><a href="#home" class="nav-link home">Home</a></li>
+                        <li class="nav-list-items"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-list-items"><a href="#services" class="nav-link">Services</a></li>
+                        <li class="nav-list-items"><a href="#projects" class="nav-link">Project</a></li>
+                        <li class="nav-list-items"><a href="#contact" class="nav-link">Contact</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>      
+            </div>
+            <p>Copyright &#169; 2025 by friday samuel. All rights reserved</p>
+            
+        </footer>
+      
+  
+
+   <script src="index.js"></script>
+</body>
+</html>
+
+
+
