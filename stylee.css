@@ -44,7 +44,7 @@ body{
     right: 0;
     top: 0;
     z-index: 1000;
-    background-color: red;
+    background-color: #2a2a2b;
     height: 100%;
     width: 300px;
     transform: translateX(100%);
@@ -689,7 +689,7 @@ form .contact-btn:hover{
     margin-top: 50px;
 }
 
-.footer-bg h3{
+.footer-bg h4{
     display: none;
 }
 
