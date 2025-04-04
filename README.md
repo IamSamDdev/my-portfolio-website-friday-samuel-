@@ -50,8 +50,8 @@ Open index.html in your browser
 
 
 ## 📬 Contact Me
-- Email: [your.email@example.com](mailto:fridaysamuel@gmail.com)
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/fsamuel19)
-- Twitter: [@yourhandle](https://x.com/thefridaysamuel?t=WWnn_uHYM5h3FN6Q1nvxKg&s=35)
-- GitHub: [GitHub Profile](https://github.com/IamSamDdev)
+- Email: (mailto:fridaysamuel@gmail.com)
+- LinkedIn: (https://www.linkedin.com/in/fsamuel19)
+- Twitter: (https://x.com/thefridaysamuel?t=WWnn_uHYM5h3FN6Q1nvxKg&s=35)
+- GitHub: (https://github.com/IamSamDdev)
 
