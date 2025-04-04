@@ -24,7 +24,7 @@ body{
     width: 90%;
     max-width: 950px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+  
 }
 
 /* header-section */
@@ -201,6 +201,7 @@ body{
 
 .introduction-section .little-about-me{
     font-size: 12px;
+    line-height: 1.5;
 }
 
 .introduction-section .cv-download,
@@ -448,15 +449,6 @@ body{
     font-size: 11px;
 }
 
-.service-inner a{
-    color: white;
-    font-size: 10px;
-}
-
-.service-inner a:hover{
-    color: #19142a
-  
-}
 
 
 /*project-sections */
